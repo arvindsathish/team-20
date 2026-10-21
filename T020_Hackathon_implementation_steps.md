@@ -1070,6 +1070,15 @@ Pop-Location
 Write-Host "Web bundles built with byte-parity in dist/." -ForegroundColor Green
 # Mental model: Compiles zero-dependency frontend bundle with embedded theme tokens, SVGs, and MSAL configuration.
 ```
+
+> [!IMPORTANT]
+> **Lab Fallback Plan — If `npm` is Blocked in the Lab Environment:**
+> If `npm` or `registry.npmjs.org` is restricted by corporate lab firewalls, you do not need Node.js:
+> 1. **Option A (Zero-NPM Pre-Compiled Deployment — Recommended):** Skip Step D5 entirely! The repository already includes the pre-compiled, self-contained production bundle in `web/dist/` (`index.html`, `bridge.html`, `staticwebapp.config.json`). Proceed directly to Step D6 (`Deploy-Swa.ps1`).
+> 2. **Option B (GitHub Actions Cloud CI/CD):** Link your GitHub repository (`arvindsathish/team-20`) to the Static Web App in the Azure Portal. GitHub Actions executes the build and deployment inside Microsoft's cloud runners, completely bypassing local lab restrictions.
+> 3. **Option C (Microsoft CDN Script Tags):** If editing frontend code without a bundler, reference the official Microsoft MSAL CDN in `index.html` (`https://alcdn.msauth.net/browser/2.38.0/js/msal-browser.min.js`) for pure vanilla JS with zero dependencies.
+> 4. **Option D (Azure Storage Static Website):** Deploy `web/dist` directly to an Azure Storage `$web` container via `az storage blob upload-batch` (pure Azure CLI, zero npm).
+
 > [!TIP]
 > **Streamlined Executive Simple View UX:** The portfolio table features a clean, high-signal 4-column layout (`Rank`, `Role & Department`, `Impact`, `Action`). The previous `Mover Impact` column is renamed to **`Impact`** and the redundant `Engine Status` column is removed for maximum executive focus.
 >
@@ -1322,4 +1331,16 @@ Follow this 6-step sequence when presenting to hackathon judges:
 * **Cause:** The SWA hostname or `bridge.html` is not registered in the Entra ID SPA App Registration.
 
 * **Fix:** In Entra ID > App Registrations > `t020_RolePatrol-Browser-<suffix>` > Authentication, ensure `https://<swa-hostname>/bridge.html` is listed under **Single-page application** Redirect URIs (not Web).
+
+
+
+### Q6: `npm` or `registry.npmjs.org` is blocked by the Hackathon Lab network
+
+* **Cause:** Corporate security proxies often block external package registries (`registry.npmjs.org`) or restrict execution of Node.js package managers.
+
+* **Fix (Zero-NPM Fallback Plan):**
+  1. **Do not run `npm ci` or `npm run build`:** The production artifacts in `web/dist/` are already fully compiled, minified, and committed to this repository with embedded CSS, SVGs, and MSAL bridge logic.
+  2. **Direct SWA Deployment:** Run `.\scripts\Deploy-Swa.ps1` directly to publish `web/dist` to Azure Static Web Apps without touching `npm`.
+  3. **Cloud CI/CD Fallback:** In the Azure Portal, connect your GitHub repository (`arvindsathish/team-20`) to the Static Web App under *Deployment Environments*. GitHub Actions will build and deploy the frontend in Microsoft's cloud with zero reliance on the local lab machine.
+
 
