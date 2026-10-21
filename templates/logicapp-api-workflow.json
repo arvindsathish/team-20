@@ -1,0 +1,308 @@
+{
+    "properties": {
+        "accessControl": {
+            "triggers": {
+                "openAuthenticationPolicies": {
+                    "policies": {
+                        "reviewer": {
+                            "claims": [
+                                {
+                                    "name": "iss",
+                                    "value": "https://login.microsoftonline.com/__TENANT_ID__/v2.0"
+                                },
+                                {
+                                    "name": "aud",
+                                    "value": "__API_CLIENT_ID__"
+                                },
+                                {
+                                    "name": "tid",
+                                    "value": "__TENANT_ID__"
+                                },
+                                {
+                                    "name": "oid",
+                                    "value": "__OWNER_OBJECT_ID__"
+                                },
+                                {
+                                    "name": "azp",
+                                    "value": "__SPA_CLIENT_ID__"
+                                },
+                                {
+                                    "name": "scp",
+                                    "value": "RolePatrol.Access"
+                                }
+                            ],
+                            "type": "AAD"
+                        }
+                    }
+                },
+                "sasAuthenticationPolicy": {
+                    "state": "Disabled"
+                }
+            }
+        },
+        "parameters": {
+            "$connections": {
+                "value": {
+                    "sql": {
+                        "connectionId": "/subscriptions/__SUBSCRIPTION_ID__/resourceGroups/__RESOURCE_GROUP__/providers/Microsoft.Web/connections/__SQL_CONNECTION_NAME__",
+                        "connectionName": "__SQL_CONNECTION_NAME__",
+                        "connectionProperties": {
+                            "authentication": {
+                                "type": "ManagedServiceIdentity"
+                            }
+                        },
+                        "id": "/subscriptions/__SUBSCRIPTION_ID__/providers/Microsoft.Web/locations/__LOCATION__/managedApis/sql"
+                    }
+                }
+            }
+        },
+        "definition": {
+            "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+            "actions": {
+                "SearchRoute": {
+                    "type": "If",
+                    "expression": {
+                        "and": [
+                            {
+                                "equals": [
+                                    "@triggerBody()?['op']",
+                                    "ticketSearch"
+                                ]
+                            },
+                            {
+                                "not": {
+                                    "equals": [
+                                        "@triggerBody()?['searchAction']",
+                                        "refresh"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "actions": {
+                        "SearchSemantic": {
+                            "type": "Http",
+                            "runAfter": {},
+                            "inputs": {
+                                "method": "POST",
+                                "uri": "https://__SEARCH_SERVICE__.search.windows.net/indexes/ticket-text/docs/search?api-version=2024-07-01",
+                                "headers": {
+                                    "Content-Type": "application/json"
+                                },
+                                "authentication": {
+                                    "type": "ManagedServiceIdentity",
+                                    "audience": "https://search.azure.com/"
+                                },
+                                "body": {
+                                    "search": "@{triggerBody()?['query']}",
+                                    "searchFields": "ticketText",
+                                    "select": "ticketId",
+                                    "top": 20,
+                                    "queryType": "semantic",
+                                    "semanticConfiguration": "ticket-semantic"
+                                }
+                            }
+                        },
+                        "SqlTicketSearchSemantic": {
+                            "type": "ApiConnection",
+                            "runAfter": {
+                                "SearchSemantic": [
+                                    "Succeeded"
+                                ]
+                            },
+                            "inputs": {
+                                "method": "post",
+                                "path": "/v2/datasets/@{encodeURIComponent(encodeURIComponent('__SQL_SERVER__.database.windows.net'))},@{encodeURIComponent(encodeURIComponent('__DATABASE__'))}/procedures/@{encodeURIComponent(encodeURIComponent('[api].[usp_Gateway]'))}",
+                                "body": {
+                                    "Payload": "@string(setProperty(setProperty(triggerBody(),'searchResponse',body('SearchSemantic')?['value']),'searchMode','Semantic'))"
+                                },
+                                "host": {
+                                    "connection": {
+                                        "name": "@parameters('$connections')['sql']['connectionId']"
+                                    }
+                                }
+                            }
+                        },
+                        "TicketSearchSemanticResponse": {
+                            "type": "Response",
+                            "kind": "Http",
+                            "runAfter": {
+                                "SqlTicketSearchSemantic": [
+                                    "Succeeded"
+                                ]
+                            },
+                            "inputs": {
+                                "statusCode": "@int(first(body('SqlTicketSearchSemantic')?['ResultSets']?['Table1'])?['HttpStatus'])",
+                                "headers": {
+                                    "Access-Control-Allow-Origin": "__SWA_URL__",
+                                    "Cache-Control": "no-store",
+                                    "Content-Type": "application/json",
+                                    "Referrer-Policy": "no-referrer",
+                                    "Vary": "Origin",
+                                    "X-Content-Type-Options": "nosniff"
+                                },
+                                "body": "@json(first(body('SqlTicketSearchSemantic')?['ResultSets']?['Table1'])?['ResponseJson'])"
+                            }
+                        },
+                        "SearchLexicalFallback": {
+                            "type": "Http",
+                            "runAfter": {
+                                "SearchSemantic": [
+                                    "Failed",
+                                    "TimedOut"
+                                ]
+                            },
+                            "inputs": {
+                                "method": "POST",
+                                "uri": "https://__SEARCH_SERVICE__.search.windows.net/indexes/ticket-text/docs/search?api-version=2024-07-01",
+                                "headers": {
+                                    "Content-Type": "application/json"
+                                },
+                                "authentication": {
+                                    "type": "ManagedServiceIdentity",
+                                    "audience": "https://search.azure.com/"
+                                },
+                                "body": {
+                                    "search": "@{triggerBody()?['query']}",
+                                    "searchFields": "ticketText",
+                                    "select": "ticketId",
+                                    "top": 20,
+                                    "queryType": "simple"
+                                }
+                            }
+                        },
+                        "SqlTicketSearchLexical": {
+                            "type": "ApiConnection",
+                            "runAfter": {
+                                "SearchLexicalFallback": [
+                                    "Succeeded"
+                                ]
+                            },
+                            "inputs": {
+                                "method": "post",
+                                "path": "/v2/datasets/@{encodeURIComponent(encodeURIComponent('__SQL_SERVER__.database.windows.net'))},@{encodeURIComponent(encodeURIComponent('__DATABASE__'))}/procedures/@{encodeURIComponent(encodeURIComponent('[api].[usp_Gateway]'))}",
+                                "body": {
+                                    "Payload": "@string(setProperty(setProperty(triggerBody(),'searchResponse',body('SearchLexicalFallback')?['value']),'searchMode','Lexical'))"
+                                },
+                                "host": {
+                                    "connection": {
+                                        "name": "@parameters('$connections')['sql']['connectionId']"
+                                    }
+                                }
+                            }
+                        },
+                        "TicketSearchLexicalResponse": {
+                            "type": "Response",
+                            "kind": "Http",
+                            "runAfter": {
+                                "SqlTicketSearchLexical": [
+                                    "Succeeded"
+                                ]
+                            },
+                            "inputs": {
+                                "statusCode": "@int(first(body('SqlTicketSearchLexical')?['ResultSets']?['Table1'])?['HttpStatus'])",
+                                "headers": {
+                                    "Access-Control-Allow-Origin": "__SWA_URL__",
+                                    "Cache-Control": "no-store",
+                                    "Content-Type": "application/json",
+                                    "Referrer-Policy": "no-referrer",
+                                    "Vary": "Origin",
+                                    "X-Content-Type-Options": "nosniff"
+                                },
+                                "body": "@json(first(body('SqlTicketSearchLexical')?['ResultSets']?['Table1'])?['ResponseJson'])"
+                            }
+                        },
+                        "SearchUnavailableResponse": {
+                            "type": "Response",
+                            "kind": "Http",
+                            "runAfter": {
+                                "SearchLexicalFallback": [
+                                    "Failed",
+                                    "TimedOut"
+                                ]
+                            },
+                            "inputs": {
+                                "statusCode": 503,
+                                "headers": {
+                                    "Access-Control-Allow-Origin": "__SWA_URL__",
+                                    "Cache-Control": "no-store",
+                                    "Content-Type": "application/json",
+                                    "Referrer-Policy": "no-referrer",
+                                    "Vary": "Origin",
+                                    "X-Content-Type-Options": "nosniff"
+                                },
+                                "body": {
+                                    "error": "Ticket search is temporarily unavailable. No candidate or impact result was counted."
+                                }
+                            }
+                        }
+                    },
+                    "else": {
+                        "actions": {
+                            "SqlGateway": {
+                                "inputs": {
+                                    "body": {
+                                        "Payload": "@string(triggerBody())"
+                                    },
+                                    "host": {
+                                        "connection": {
+                                            "name": "@parameters('$connections')['sql']['connectionId']"
+                                        }
+                                    },
+                                    "method": "post",
+                                    "path": "/v2/datasets/@{encodeURIComponent(encodeURIComponent('__SQL_SERVER__.database.windows.net'))},@{encodeURIComponent(encodeURIComponent('__DATABASE__'))}/procedures/@{encodeURIComponent(encodeURIComponent('[api].[usp_Gateway]'))}"
+                                },
+                                "runAfter": {},
+                                "type": "ApiConnection"
+                            },
+                            "Response": {
+                                "inputs": {
+                                    "body": "@json(first(body('SqlGateway')?['ResultSets']?['Table1'])?['ResponseJson'])",
+                                    "headers": {
+                                        "Access-Control-Allow-Origin": "__SWA_URL__",
+                                        "Cache-Control": "no-store",
+                                        "Content-Type": "application/json",
+                                        "Referrer-Policy": "no-referrer",
+                                        "Vary": "Origin",
+                                        "X-Content-Type-Options": "nosniff"
+                                    },
+                                    "statusCode": "@int(first(body('SqlGateway')?['ResultSets']?['Table1'])?['HttpStatus'])"
+                                },
+                                "kind": "Http",
+                                "runAfter": {
+                                    "SqlGateway": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "Response"
+                            }
+                        }
+                    }
+                }
+            },
+            "contentVersion": "1.0.0.0",
+            "outputs": {},
+            "parameters": {
+                "$connections": {
+                    "defaultValue": {},
+                    "type": "Object"
+                }
+            },
+            "triggers": {
+                "manual": {
+                    "inputs": {
+                        "method": "POST",
+                        "schema": {}
+                    },
+                    "kind": "Http",
+                    "type": "Request"
+                }
+            }
+        },
+        "state": "Enabled"
+    },
+    "location": "__LOCATION__",
+    "identity": {
+        "type": "SystemAssigned"
+    }
+}

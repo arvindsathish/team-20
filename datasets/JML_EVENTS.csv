@@ -1,0 +1,176 @@
+JML_Event_ID,GID,Event_Type,Event_Date,Previous_Title,Previous_Cost_Center,Previous_Business_Group,New_Title,New_Cost_Center,New_Business_Group,Previous_Business_Role_ID,New_Business_Role_ID,Event_Status
+JML0001,GID0302,Joiner,2026-01-03,,,,Data Quality Analyst,322,GM Financial Mexico,,BR0072,Completed
+JML0002,GID0110,Joiner,2026-01-08,,,,Document Control Associate,113,GM Financial US,,BR0013,Completed
+JML0003,GID0468,Leaver,2026-02-03,Client Account Associate,101,GM Financial US,,,,BR0001,,Completed
+JML0004,GID0238,Joiner,2026-02-06,,,,Document Control Associate,113,GM Financial US,,BR0013,Completed
+JML0005,GID0451,Leaver,2026-02-06,Data Quality Specialist,223,GM Financial Canada,,,,BR0048,,Completed
+JML0006,GID0352,Joiner,2026-02-08,,,,Service Operations Coordinator,125,GM Financial US,,BR0025,Completed
+JML0007,GID0469,Leaver,2026-02-08,Payment Operations Lead,106,GM Financial US,,,,BR0006,,Completed
+JML0008,GID0109,Joiner,2026-02-14,,,,Client Account Associate,201,GM Financial Canada,,BR0026,Completed
+JML0009,GID0350,Joiner,2026-02-15,,,,Client Account Specialist,302,GM Financial Mexico,,BR0052,Completed
+JML0010,GID0127,Joiner,2026-02-19,,,,Case Resolution Specialist,317,GM Financial Mexico,,BR0067,Completed
+JML0011,GID0463,Leaver,2026-02-19,Document Control Associate,213,GM Financial Canada,,,,BR0038,,Completed
+JML0012,GID0044,Mover,2026-03-02,Risk Monitoring Lead,121,GM Financial US,Case Resolution Specialist,117,GM Financial US,BR0021,BR0017,Completed
+JML0013,GID0211,Joiner,2026-03-02,,,,Payment Operations Associate,204,GM Financial Canada,,BR0029,Completed
+JML0014,GID0231,Mover,2026-03-02,Document Control Associate,313,GM Financial Mexico,Risk Monitoring Lead,321,GM Financial Mexico,BR0063,BR0071,Completed
+JML0015,GID0186,Mover,2026-03-04,Document Control Associate,213,GM Financial Canada,Service Operations Coordinator,325,GM Financial Mexico,BR0038,BR0075,Completed
+JML0016,GID0411,Mover,2026-03-05,Credit Review Specialist,308,GM Financial Mexico,Case Resolution Lead,318,GM Financial Mexico,BR0058,BR0068,Completed
+JML0017,GID0088,Mover,2026-03-10,Payment Operations Lead,206,GM Financial Canada,Case Resolution Lead,118,GM Financial US,BR0031,BR0018,Completed
+JML0018,GID0060,Mover,2026-03-11,Portfolio Reporting Analyst,310,GM Financial Mexico,Credit Review Specialist,108,GM Financial US,BR0060,BR0008,Completed
+JML0019,GID0407,Mover,2026-03-12,Case Resolution Associate,116,GM Financial US,Risk Monitoring Lead,121,GM Financial US,BR0016,BR0021,Completed
+JML0020,GID0260,Mover,2026-03-13,Credit Review Lead,209,GM Financial Canada,Risk Monitoring Analyst,119,GM Financial US,BR0034,BR0019,Completed
+JML0021,GID0374,Mover,2026-03-13,Risk Monitoring Lead,121,GM Financial US,Risk Monitoring Analyst,119,GM Financial US,BR0021,BR0019,Completed
+JML0022,GID0419,Joiner,2026-03-14,,,,Portfolio Reporting Analyst,110,GM Financial US,,BR0010,Completed
+JML0023,GID0004,Mover,2026-03-17,Data Quality Lead,324,GM Financial Mexico,Credit Review Specialist,108,GM Financial US,BR0074,BR0008,Completed
+JML0024,GID0356,Mover,2026-03-17,Case Resolution Specialist,217,GM Financial Canada,Client Account Lead,203,GM Financial Canada,BR0042,BR0028,Completed
+JML0025,GID0464,Leaver,2026-03-18,Payment Operations Associate,304,GM Financial Mexico,,,,BR0054,,Completed
+JML0026,GID0380,Mover,2026-03-19,Portfolio Reporting Analyst,310,GM Financial Mexico,Credit Review Specialist,208,GM Financial Canada,BR0060,BR0033,Completed
+JML0027,GID0466,Leaver,2026-03-20,Client Account Lead,103,GM Financial US,,,,BR0003,,Completed
+JML0028,GID0112,Mover,2026-03-24,Document Control Specialist,214,GM Financial Canada,Payment Operations Specialist,305,GM Financial Mexico,BR0039,BR0055,Completed
+JML0029,GID0338,Joiner,2026-03-24,,,,Payment Operations Lead,106,GM Financial US,,BR0006,Completed
+JML0030,GID0005,Mover,2026-03-26,Client Account Specialist,102,GM Financial US,Credit Review Associate,207,GM Financial Canada,BR0002,BR0032,Completed
+JML0031,GID0066,Mover,2026-03-26,Case Resolution Specialist,217,GM Financial Canada,Portfolio Reporting Lead,212,GM Financial Canada,BR0042,BR0037,Completed
+JML0032,GID0304,Mover,2026-03-28,Client Account Specialist,102,GM Financial US,Credit Review Specialist,308,GM Financial Mexico,BR0002,BR0058,Completed
+JML0033,GID0025,Mover,2026-03-30,Document Control Specialist,114,GM Financial US,Data Quality Specialist,323,GM Financial Mexico,BR0014,BR0073,Completed
+JML0034,GID0123,Mover,2026-03-30,Case Resolution Specialist,117,GM Financial US,Data Quality Analyst,122,GM Financial US,BR0017,BR0022,Completed
+JML0035,GID0170,Mover,2026-04-01,Document Control Associate,213,GM Financial Canada,Document Control Lead,115,GM Financial US,BR0038,BR0015,Completed
+JML0036,GID0404,Joiner,2026-04-02,,,,Portfolio Reporting Analyst,310,GM Financial Mexico,,BR0060,Completed
+JML0037,GID0453,Leaver,2026-04-03,Client Account Specialist,302,GM Financial Mexico,,,,BR0052,,Completed
+JML0038,GID0311,Mover,2026-04-05,Portfolio Reporting Specialist,111,GM Financial US,Client Account Lead,303,GM Financial Mexico,BR0011,BR0053,Completed
+JML0039,GID0256,Mover,2026-04-06,Client Account Associate,201,GM Financial Canada,Case Resolution Specialist,217,GM Financial Canada,BR0026,BR0042,Completed
+JML0040,GID0241,Joiner,2026-04-07,,,,Portfolio Reporting Analyst,110,GM Financial US,,BR0010,Completed
+JML0041,GID0064,Joiner,2026-04-08,,,,Portfolio Reporting Lead,112,GM Financial US,,BR0012,Completed
+JML0042,GID0194,Mover,2026-04-08,Credit Review Associate,107,GM Financial US,Payment Operations Lead,306,GM Financial Mexico,BR0007,BR0056,Completed
+JML0043,GID0292,Joiner,2026-04-08,,,,Client Account Associate,201,GM Financial Canada,,BR0026,Completed
+JML0044,GID0402,Mover,2026-04-08,Case Resolution Associate,116,GM Financial US,Service Operations Coordinator,225,GM Financial Canada,BR0016,BR0050,Completed
+JML0045,GID0169,Joiner,2026-04-11,,,,Risk Monitoring Analyst,319,GM Financial Mexico,,BR0069,Completed
+JML0046,GID0370,Mover,2026-04-11,Risk Monitoring Specialist,120,GM Financial US,Client Account Specialist,202,GM Financial Canada,BR0020,BR0027,Completed
+JML0047,GID0167,Joiner,2026-04-12,,,,Risk Monitoring Lead,221,GM Financial Canada,,BR0046,Completed
+JML0048,GID0290,Mover,2026-04-12,Case Resolution Specialist,217,GM Financial Canada,Client Account Specialist,202,GM Financial Canada,BR0042,BR0027,Completed
+JML0049,GID0284,Mover,2026-04-13,Risk Monitoring Analyst,319,GM Financial Mexico,Risk Monitoring Analyst,219,GM Financial Canada,BR0069,BR0044,Completed
+JML0050,GID0273,Mover,2026-04-15,Data Quality Lead,224,GM Financial Canada,Client Account Lead,103,GM Financial US,BR0049,BR0003,Completed
+JML0051,GID0259,Mover,2026-04-16,Case Resolution Lead,218,GM Financial Canada,Risk Monitoring Specialist,320,GM Financial Mexico,BR0043,BR0070,Completed
+JML0052,GID0353,Mover,2026-04-16,Credit Review Specialist,208,GM Financial Canada,Risk Monitoring Specialist,320,GM Financial Mexico,BR0033,BR0070,Completed
+JML0053,GID0139,Mover,2026-04-17,Payment Operations Associate,304,GM Financial Mexico,Portfolio Reporting Lead,312,GM Financial Mexico,BR0054,BR0062,Completed
+JML0054,GID0224,Joiner,2026-04-17,,,,Client Account Specialist,102,GM Financial US,,BR0002,Completed
+JML0055,GID0262,Mover,2026-04-17,Client Account Associate,201,GM Financial Canada,Risk Monitoring Lead,121,GM Financial US,BR0026,BR0021,Completed
+JML0056,GID0045,Mover,2026-04-20,Credit Review Specialist,208,GM Financial Canada,Risk Monitoring Analyst,219,GM Financial Canada,BR0033,BR0044,Completed
+JML0057,GID0090,Mover,2026-04-22,Credit Review Associate,107,GM Financial US,Payment Operations Associate,304,GM Financial Mexico,BR0007,BR0054,Completed
+JML0058,GID0454,Leaver,2026-04-22,Portfolio Reporting Analyst,310,GM Financial Mexico,,,,BR0060,,Completed
+JML0059,GID0344,Mover,2026-04-23,Payment Operations Lead,306,GM Financial Mexico,Payment Operations Specialist,105,GM Financial US,BR0056,BR0005,Completed
+JML0060,GID0443,Mover,2026-04-23,Document Control Specialist,214,GM Financial Canada,Data Quality Analyst,322,GM Financial Mexico,BR0039,BR0072,Completed
+JML0061,GID0210,Mover,2026-04-25,Payment Operations Associate,304,GM Financial Mexico,Portfolio Reporting Analyst,310,GM Financial Mexico,BR0054,BR0060,Completed
+JML0062,GID0105,Joiner,2026-04-27,,,,Case Resolution Specialist,217,GM Financial Canada,,BR0042,Completed
+JML0063,GID0131,Mover,2026-04-27,Data Quality Specialist,323,GM Financial Mexico,Client Account Specialist,202,GM Financial Canada,BR0073,BR0027,Completed
+JML0064,GID0326,Mover,2026-05-01,Document Control Associate,313,GM Financial Mexico,Service Operations Coordinator,125,GM Financial US,BR0063,BR0025,Completed
+JML0065,GID0219,Mover,2026-05-02,Portfolio Reporting Lead,112,GM Financial US,Document Control Associate,213,GM Financial Canada,BR0012,BR0038,Completed
+JML0066,GID0461,Leaver,2026-05-02,Document Control Specialist,114,GM Financial US,,,,BR0014,,Completed
+JML0067,GID0152,Joiner,2026-05-03,,,,Document Control Lead,315,GM Financial Mexico,,BR0065,Completed
+JML0068,GID0366,Mover,2026-05-03,Risk Monitoring Lead,221,GM Financial Canada,Credit Review Lead,109,GM Financial US,BR0046,BR0009,Completed
+JML0069,GID0012,Mover,2026-05-04,Portfolio Reporting Specialist,211,GM Financial Canada,Case Resolution Lead,118,GM Financial US,BR0036,BR0018,Completed
+JML0070,GID0342,Mover,2026-05-05,Payment Operations Lead,106,GM Financial US,Document Control Associate,213,GM Financial Canada,BR0006,BR0038,Completed
+JML0071,GID0291,Joiner,2026-05-06,,,,Client Account Associate,201,GM Financial Canada,,BR0026,Completed
+JML0072,GID0435,Mover,2026-05-06,Data Quality Lead,224,GM Financial Canada,Case Resolution Associate,116,GM Financial US,BR0049,BR0016,Completed
+JML0073,GID0151,Mover,2026-05-07,Data Quality Lead,224,GM Financial Canada,Risk Monitoring Specialist,120,GM Financial US,BR0049,BR0020,Completed
+JML0074,GID0282,Mover,2026-05-08,Payment Operations Specialist,205,GM Financial Canada,Risk Monitoring Analyst,219,GM Financial Canada,BR0030,BR0044,Completed
+JML0075,GID0305,Mover,2026-05-08,Credit Review Specialist,208,GM Financial Canada,Case Resolution Associate,316,GM Financial Mexico,BR0033,BR0066,Completed
+JML0076,GID0452,Leaver,2026-05-09,Data Quality Analyst,122,GM Financial US,,,,BR0022,,Completed
+JML0077,GID0033,Mover,2026-05-12,Data Quality Lead,324,GM Financial Mexico,Payment Operations Lead,106,GM Financial US,BR0074,BR0006,Completed
+JML0078,GID0428,Mover,2026-05-12,Portfolio Reporting Lead,212,GM Financial Canada,Document Control Lead,315,GM Financial Mexico,BR0037,BR0065,Completed
+JML0079,GID0333,Mover,2026-05-13,Payment Operations Associate,104,GM Financial US,Credit Review Specialist,308,GM Financial Mexico,BR0004,BR0058,Completed
+JML0080,GID0458,Leaver,2026-05-13,Payment Operations Lead,306,GM Financial Mexico,,,,BR0056,,Completed
+JML0081,GID0465,Leaver,2026-05-13,Service Operations Coordinator,325,GM Financial Mexico,,,,BR0075,,Completed
+JML0082,GID0111,Mover,2026-05-17,Client Account Specialist,202,GM Financial Canada,Document Control Lead,115,GM Financial US,BR0027,BR0015,Completed
+JML0083,GID0138,Mover,2026-05-17,Data Quality Lead,124,GM Financial US,Document Control Associate,113,GM Financial US,BR0024,BR0013,Completed
+JML0084,GID0196,Mover,2026-05-19,Payment Operations Lead,206,GM Financial Canada,Payment Operations Specialist,205,GM Financial Canada,BR0031,BR0030,Completed
+JML0085,GID0417,Mover,2026-05-19,Portfolio Reporting Lead,312,GM Financial Mexico,Credit Review Specialist,308,GM Financial Mexico,BR0062,BR0058,Completed
+JML0086,GID0467,Leaver,2026-05-22,Data Quality Lead,224,GM Financial Canada,,,,BR0049,,Completed
+JML0087,GID0103,Mover,2026-05-26,Portfolio Reporting Specialist,111,GM Financial US,Payment Operations Specialist,305,GM Financial Mexico,BR0011,BR0055,Completed
+JML0088,GID0209,Mover,2026-05-27,Data Quality Analyst,122,GM Financial US,Document Control Lead,115,GM Financial US,BR0022,BR0015,Completed
+JML0089,GID0067,Joiner,2026-05-28,,,,Portfolio Reporting Lead,112,GM Financial US,,BR0012,Completed
+JML0090,GID0348,Joiner,2026-05-30,,,,Portfolio Reporting Analyst,110,GM Financial US,,BR0010,Completed
+JML0091,GID0447,Mover,2026-05-31,Case Resolution Lead,218,GM Financial Canada,Document Control Specialist,314,GM Financial Mexico,BR0043,BR0064,Completed
+JML0092,GID0159,Joiner,2026-06-02,,,,Data Quality Specialist,323,GM Financial Mexico,,BR0073,Completed
+JML0093,GID0325,Mover,2026-06-03,Data Quality Analyst,122,GM Financial US,Client Account Lead,103,GM Financial US,BR0022,BR0003,Completed
+JML0094,GID0249,Mover,2026-06-04,Risk Monitoring Analyst,219,GM Financial Canada,Payment Operations Associate,104,GM Financial US,BR0044,BR0004,Completed
+JML0095,GID0145,Mover,2026-06-05,Portfolio Reporting Lead,312,GM Financial Mexico,Credit Review Specialist,108,GM Financial US,BR0062,BR0008,Completed
+JML0096,GID0146,Joiner,2026-06-06,,,,Document Control Specialist,314,GM Financial Mexico,,BR0064,Completed
+JML0097,GID0084,Mover,2026-06-08,Payment Operations Associate,104,GM Financial US,Client Account Lead,103,GM Financial US,BR0004,BR0003,Completed
+JML0098,GID0246,Mover,2026-06-08,Document Control Associate,213,GM Financial Canada,Credit Review Lead,309,GM Financial Mexico,BR0038,BR0059,Completed
+JML0099,GID0184,Mover,2026-06-12,Client Account Lead,103,GM Financial US,Client Account Associate,301,GM Financial Mexico,BR0003,BR0051,Completed
+JML0100,GID0188,Mover,2026-06-12,Portfolio Reporting Analyst,310,GM Financial Mexico,Credit Review Lead,209,GM Financial Canada,BR0060,BR0034,Completed
+JML0101,GID0198,Mover,2026-06-12,Payment Operations Lead,206,GM Financial Canada,Case Resolution Specialist,117,GM Financial US,BR0031,BR0017,Completed
+JML0102,GID0135,Mover,2026-06-13,Portfolio Reporting Specialist,311,GM Financial Mexico,Risk Monitoring Lead,121,GM Financial US,BR0061,BR0021,Completed
+JML0103,GID0382,Mover,2026-06-13,Document Control Specialist,114,GM Financial US,Portfolio Reporting Lead,312,GM Financial Mexico,BR0014,BR0062,Completed
+JML0104,GID0346,Mover,2026-06-15,Portfolio Reporting Specialist,211,GM Financial Canada,Portfolio Reporting Specialist,111,GM Financial US,BR0036,BR0011,Completed
+JML0105,GID0470,Leaver,2026-06-16,Portfolio Reporting Specialist,111,GM Financial US,,,,BR0011,,Completed
+JML0106,GID0462,Leaver,2026-06-17,Risk Monitoring Lead,321,GM Financial Mexico,,,,BR0071,,Completed
+JML0107,GID0024,Mover,2026-06-18,Portfolio Reporting Analyst,310,GM Financial Mexico,Risk Monitoring Lead,221,GM Financial Canada,BR0060,BR0046,Completed
+JML0108,GID0313,Mover,2026-06-19,Portfolio Reporting Specialist,111,GM Financial US,Client Account Lead,303,GM Financial Mexico,BR0011,BR0053,Completed
+JML0109,GID0388,Mover,2026-06-20,Document Control Lead,315,GM Financial Mexico,Document Control Specialist,114,GM Financial US,BR0065,BR0014,Completed
+JML0110,GID0037,Mover,2026-06-22,Payment Operations Associate,204,GM Financial Canada,Portfolio Reporting Specialist,111,GM Financial US,BR0029,BR0011,Completed
+JML0111,GID0369,Joiner,2026-06-24,,,,Credit Review Lead,209,GM Financial Canada,,BR0034,Completed
+JML0112,GID0063,Joiner,2026-06-26,,,,Risk Monitoring Lead,121,GM Financial US,,BR0021,Completed
+JML0113,GID0199,Mover,2026-06-26,Payment Operations Lead,206,GM Financial Canada,Portfolio Reporting Analyst,310,GM Financial Mexico,BR0031,BR0060,Completed
+JML0114,GID0300,Mover,2026-06-26,Risk Monitoring Specialist,220,GM Financial Canada,Document Control Lead,115,GM Financial US,BR0045,BR0015,Completed
+JML0115,GID0161,Mover,2026-06-27,Case Resolution Lead,318,GM Financial Mexico,Payment Operations Associate,304,GM Financial Mexico,BR0068,BR0054,Completed
+JML0116,GID0287,Mover,2026-06-27,Case Resolution Lead,318,GM Financial Mexico,Data Quality Specialist,323,GM Financial Mexico,BR0068,BR0073,Completed
+JML0117,GID0321,Mover,2026-06-28,Portfolio Reporting Specialist,111,GM Financial US,Client Account Specialist,102,GM Financial US,BR0011,BR0002,Completed
+JML0118,GID0301,Joiner,2026-07-01,,,,Client Account Specialist,202,GM Financial Canada,,BR0027,Completed
+JML0119,GID0456,Leaver,2026-07-01,Document Control Lead,215,GM Financial Canada,,,,BR0040,,Completed
+JML0120,GID0460,Leaver,2026-07-02,Risk Monitoring Lead,221,GM Financial Canada,,,,BR0046,,Completed
+JML0121,GID0079,Mover,2026-07-03,Portfolio Reporting Analyst,310,GM Financial Mexico,Portfolio Reporting Specialist,211,GM Financial Canada,BR0060,BR0036,Completed
+JML0122,GID0014,Mover,2026-07-07,Data Quality Lead,224,GM Financial Canada,Payment Operations Lead,306,GM Financial Mexico,BR0049,BR0056,Completed
+JML0123,GID0293,Mover,2026-07-08,Portfolio Reporting Specialist,311,GM Financial Mexico,Payment Operations Associate,304,GM Financial Mexico,BR0061,BR0054,Completed
+JML0124,GID0384,Mover,2026-07-09,Data Quality Lead,124,GM Financial US,Client Account Specialist,202,GM Financial Canada,BR0024,BR0027,Completed
+JML0125,GID0457,Leaver,2026-07-09,Portfolio Reporting Specialist,311,GM Financial Mexico,,,,BR0061,,Completed
+JML0126,GID0306,Mover,2026-07-11,Client Account Lead,303,GM Financial Mexico,Document Control Lead,215,GM Financial Canada,BR0053,BR0040,Completed
+JML0127,GID0255,Mover,2026-07-12,Credit Review Lead,309,GM Financial Mexico,Credit Review Specialist,308,GM Financial Mexico,BR0059,BR0058,Completed
+JML0128,GID0055,Mover,2026-07-14,Document Control Lead,115,GM Financial US,Data Quality Analyst,122,GM Financial US,BR0015,BR0022,Completed
+JML0129,GID0095,Mover,2026-07-14,Case Resolution Associate,116,GM Financial US,Payment Operations Lead,306,GM Financial Mexico,BR0016,BR0056,Completed
+JML0130,GID0008,Mover,2026-07-17,Payment Operations Lead,206,GM Financial Canada,Payment Operations Specialist,105,GM Financial US,BR0031,BR0005,Completed
+JML0131,GID0207,Mover,2026-07-19,Risk Monitoring Lead,121,GM Financial US,Payment Operations Lead,206,GM Financial Canada,BR0021,BR0031,Completed
+JML0132,GID0215,Joiner,2026-07-19,,,,Portfolio Reporting Specialist,311,GM Financial Mexico,,BR0061,Completed
+JML0133,GID0085,Joiner,2026-07-20,,,,Payment Operations Lead,206,GM Financial Canada,,BR0031,Completed
+JML0134,GID0080,Mover,2026-07-22,Portfolio Reporting Analyst,210,GM Financial Canada,Portfolio Reporting Analyst,110,GM Financial US,BR0035,BR0010,Completed
+JML0135,GID0450,Mover,2026-07-22,Portfolio Reporting Specialist,211,GM Financial Canada,Payment Operations Associate,104,GM Financial US,BR0036,BR0004,Completed
+JML0136,GID0134,Mover,2026-07-25,Document Control Associate,313,GM Financial Mexico,Risk Monitoring Analyst,319,GM Financial Mexico,BR0063,BR0069,Completed
+JML0137,GID0387,Mover,2026-07-25,Service Operations Coordinator,125,GM Financial US,Payment Operations Specialist,205,GM Financial Canada,BR0025,BR0030,Completed
+JML0138,GID0303,Joiner,2026-07-26,,,,Risk Monitoring Specialist,120,GM Financial US,,BR0020,Completed
+JML0139,GID0424,Mover,2026-07-30,Document Control Associate,113,GM Financial US,Service Operations Coordinator,225,GM Financial Canada,BR0013,BR0050,Completed
+JML0140,GID0010,Mover,2026-07-31,Credit Review Associate,307,GM Financial Mexico,Case Resolution Associate,116,GM Financial US,BR0057,BR0016,Completed
+JML0141,GID0030,Mover,2026-07-31,Client Account Associate,101,GM Financial US,Payment Operations Associate,204,GM Financial Canada,BR0001,BR0029,Completed
+JML0142,GID0426,Mover,2026-07-31,Credit Review Associate,307,GM Financial Mexico,Document Control Lead,115,GM Financial US,BR0057,BR0015,Completed
+JML0143,GID0165,Mover,2026-08-02,Case Resolution Lead,118,GM Financial US,Document Control Specialist,114,GM Financial US,BR0018,BR0014,Completed
+JML0144,GID0459,Leaver,2026-08-02,Portfolio Reporting Specialist,311,GM Financial Mexico,,,,BR0061,,Completed
+JML0145,GID0192,Joiner,2026-08-05,,,,Risk Monitoring Analyst,319,GM Financial Mexico,,BR0069,Completed
+JML0146,GID0314,Mover,2026-08-08,Document Control Specialist,314,GM Financial Mexico,Client Account Specialist,102,GM Financial US,BR0064,BR0002,Completed
+JML0147,GID0115,Mover,2026-08-10,Client Account Specialist,202,GM Financial Canada,Portfolio Reporting Specialist,111,GM Financial US,BR0027,BR0011,Completed
+JML0148,GID0396,Joiner,2026-08-12,,,,Payment Operations Associate,104,GM Financial US,,BR0004,Completed
+JML0149,GID0267,Joiner,2026-08-13,,,,Credit Review Associate,207,GM Financial Canada,,BR0032,Completed
+JML0150,GID0258,Mover,2026-08-14,Data Quality Analyst,122,GM Financial US,Portfolio Reporting Specialist,211,GM Financial Canada,BR0022,BR0036,Completed
+JML0151,GID0361,Mover,2026-08-16,Risk Monitoring Lead,221,GM Financial Canada,Document Control Specialist,214,GM Financial Canada,BR0046,BR0039,Completed
+JML0152,GID0364,Mover,2026-08-17,Payment Operations Associate,304,GM Financial Mexico,Client Account Associate,201,GM Financial Canada,BR0054,BR0026,Completed
+JML0153,GID0368,Mover,2026-08-17,Risk Monitoring Analyst,319,GM Financial Mexico,Document Control Specialist,114,GM Financial US,BR0069,BR0014,Completed
+JML0154,GID0444,Mover,2026-08-17,Risk Monitoring Lead,121,GM Financial US,Data Quality Analyst,222,GM Financial Canada,BR0021,BR0047,Completed
+JML0155,GID0150,Mover,2026-08-18,Client Account Specialist,302,GM Financial Mexico,Service Operations Coordinator,325,GM Financial Mexico,BR0052,BR0075,Completed
+JML0156,GID0226,Mover,2026-08-18,Client Account Associate,201,GM Financial Canada,Portfolio Reporting Analyst,210,GM Financial Canada,BR0026,BR0035,Completed
+JML0157,GID0289,Mover,2026-08-18,Document Control Specialist,314,GM Financial Mexico,Client Account Associate,201,GM Financial Canada,BR0064,BR0026,Completed
+JML0158,GID0385,Mover,2026-08-19,Payment Operations Specialist,205,GM Financial Canada,Portfolio Reporting Specialist,311,GM Financial Mexico,BR0030,BR0061,Completed
+JML0159,GID0206,Mover,2026-08-20,Portfolio Reporting Specialist,111,GM Financial US,Case Resolution Specialist,217,GM Financial Canada,BR0011,BR0042,Completed
+JML0160,GID0283,Mover,2026-08-24,Case Resolution Specialist,217,GM Financial Canada,Document Control Specialist,214,GM Financial Canada,BR0042,BR0039,Completed
+JML0161,GID0359,Mover,2026-08-27,Portfolio Reporting Lead,312,GM Financial Mexico,Payment Operations Associate,304,GM Financial Mexico,BR0062,BR0054,Completed
+JML0162,GID0334,Mover,2026-08-28,Case Resolution Specialist,317,GM Financial Mexico,Credit Review Associate,307,GM Financial Mexico,BR0067,BR0057,Completed
+JML0163,GID0415,Mover,2026-08-28,Credit Review Specialist,108,GM Financial US,Credit Review Associate,207,GM Financial Canada,BR0008,BR0032,Completed
+JML0164,GID0218,Mover,2026-08-30,Payment Operations Associate,204,GM Financial Canada,Risk Monitoring Lead,221,GM Financial Canada,BR0029,BR0046,Completed
+JML0165,GID0114,Mover,2026-09-01,Document Control Associate,213,GM Financial Canada,Credit Review Lead,109,GM Financial US,BR0038,BR0009,Completed
+JML0166,GID0377,Joiner,2026-09-06,,,,Case Resolution Specialist,217,GM Financial Canada,,BR0042,Completed
+JML0167,GID0395,Mover,2026-09-06,Credit Review Associate,107,GM Financial US,Risk Monitoring Specialist,120,GM Financial US,BR0007,BR0020,Completed
+JML0168,GID0125,Mover,2026-09-10,Data Quality Analyst,122,GM Financial US,Case Resolution Associate,216,GM Financial Canada,BR0022,BR0041,Completed
+JML0169,GID0421,Joiner,2026-09-11,,,,Payment Operations Lead,206,GM Financial Canada,,BR0031,Completed
+JML0170,GID0378,Mover,2026-09-12,Credit Review Associate,207,GM Financial Canada,Payment Operations Lead,106,GM Financial US,BR0032,BR0006,Completed
+JML0171,GID0213,Mover,2026-09-13,Data Quality Lead,324,GM Financial Mexico,Portfolio Reporting Analyst,210,GM Financial Canada,BR0074,BR0035,Completed
+JML0172,GID0251,Mover,2026-09-14,Risk Monitoring Analyst,119,GM Financial US,Document Control Associate,313,GM Financial Mexico,BR0019,BR0063,Completed
+JML0173,GID0295,Mover,2026-09-14,Data Quality Analyst,322,GM Financial Mexico,Case Resolution Associate,116,GM Financial US,BR0072,BR0016,Completed
+JML0174,GID0091,Mover,2026-09-15,Risk Monitoring Lead,121,GM Financial US,Case Resolution Lead,218,GM Financial Canada,BR0021,BR0043,Completed
+JML0175,GID0455,Leaver,2026-09-19,Risk Monitoring Analyst,119,GM Financial US,,,,BR0019,,Completed

@@ -1,0 +1,10 @@
+{
+    "tenantId":  "cca2c4e5-a8a4-46a4-9354-abee5cc16a67",
+    "clientId":  "e331be1f-5759-4558-87e0-e67a2602eba4",
+    "apiClientId":  "93257902-d110-4553-8a29-f180ccc911c1",
+    "redirectUri":  "https://polite-plant-087400410.1.azurestaticapps.net/bridge.html",
+    "apiByObjectId":  {
+                          "039ed69d-ba6b-4b0d-9992-46abe0de037b":  "https://prod-14.centralus.logic.azure.com:443/workflows/9f98eef96a39469ea65b0868e37d19a6/triggers/manual/paths/invoke?api-version=2016-06-01",
+                          "f1ad0083-2c19-4d66-a0fa-cad1abf3dc67":  "https://prod-29.centralus.logic.azure.com:443/workflows/398ebe1048804610814d7cd8eef7210d/triggers/manual/paths/invoke?api-version=2016-06-01"
+                      }
+}

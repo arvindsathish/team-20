@@ -1,0 +1,11 @@
+{
+  "name": "rolepatrol-ticket-indexer",
+  "dataSourceName": "rolepatrol-ticket-source",
+  "targetIndexName": "ticket-text",
+  "fieldMappings": [
+    { "sourceFieldName": "TicketId", "targetFieldName": "ticketId" },
+    { "sourceFieldName": "TicketText", "targetFieldName": "ticketText" },
+    { "sourceFieldName": "TicketType", "targetFieldName": "ticketType" },
+    { "sourceFieldName": "ContextCode", "targetFieldName": "contextCode" }
+  ]
+}

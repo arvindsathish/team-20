@@ -1,0 +1,41 @@
+Application_ID,Application_Name,Application_Category,Active_Status
+APP001,Avenra Ledger Desk,Finance Operations,Active
+APP002,Belyx Report Hub,Finance Operations,Active
+APP003,Calora Document Vault,Finance Operations,Active
+APP004,Dovari Service Queue,Finance Operations,Active
+APP005,Elenix Case Board,Finance Operations,Active
+APP006,Fentara Payment Studio,Finance Operations,Active
+APP007,Gavelo Risk Monitor,Finance Operations,Active
+APP008,Havora Access Console,Finance Operations,Active
+APP009,Iverna Ledger Desk,Reporting,Active
+APP010,Jalven Report Hub,Reporting,Active
+APP011,Korevi Document Vault,Reporting,Active
+APP012,Lunaro Service Queue,Reporting,Active
+APP013,Mavira Case Board,Reporting,Active
+APP014,Nerovo Payment Studio,Reporting,Active
+APP015,Orvexa Risk Monitor,Reporting,Active
+APP016,Pavelo Access Console,Reporting,Active
+APP017,Quinara Ledger Desk,Document Management,Active
+APP018,Roveni Report Hub,Document Management,Active
+APP019,Selvex Document Vault,Document Management,Active
+APP020,Toriva Service Queue,Document Management,Active
+APP021,Ulveno Case Board,Document Management,Active
+APP022,Verixa Payment Studio,Document Management,Active
+APP023,Welora Risk Monitor,Document Management,Active
+APP024,Xaveli Access Console,Document Management,Active
+APP025,Yorena Ledger Desk,Customer Servicing,Active
+APP026,Zelvian Report Hub,Customer Servicing,Active
+APP027,Arvexa Document Vault,Customer Servicing,Active
+APP028,Brenora Service Queue,Customer Servicing,Active
+APP029,Corvian Case Board,Customer Servicing,Active
+APP030,Delenix Payment Studio,Customer Servicing,Active
+APP031,Evaron Risk Monitor,Customer Servicing,Active
+APP032,Folvira Access Console,Customer Servicing,Active
+APP033,Gorena Ledger Desk,Case Management,Active
+APP034,Helvian Report Hub,Case Management,Active
+APP035,Ilenor Document Vault,Case Management,Active
+APP036,Jovexa Service Queue,Case Management,Active
+APP037,Kavira Case Board,Case Management,Inactive
+APP038,Lerovo Payment Studio,Case Management,Inactive
+APP039,Morvian Risk Monitor,Case Management,Inactive
+APP040,Nuvexa Access Console,Case Management,Inactive

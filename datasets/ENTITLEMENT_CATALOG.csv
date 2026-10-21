@@ -1,0 +1,251 @@
+Entitlement_ID,Application_ID,Entitlement_Name,Entitlement_Type,Access_Level,Sensitive_Flag,Active_Status
+ENT0001,APP001,Read Desk,Application Role,Read,N,Y
+ENT0002,APP001,Work Queue,Security Group,Standard,N,Y
+ENT0003,APP001,Case Review,Permission,Standard,N,Y
+ENT0004,APP001,Report Export,Application Role,Read,N,Y
+ENT0005,APP001,Exception Review,Security Group,Elevated,Y,Y
+ENT0006,APP001,Batch Control,Permission,Standard,N,Y
+ENT0007,APP001,Access Steward,Application Role,Administrative,Y,Y
+ENT0008,APP002,Read Desk,Application Role,Read,N,Y
+ENT0009,APP002,Work Queue,Security Group,Standard,N,Y
+ENT0010,APP002,Case Review,Permission,Standard,N,Y
+ENT0011,APP002,Report Export,Application Role,Read,N,Y
+ENT0012,APP002,Exception Review,Security Group,Elevated,Y,Y
+ENT0013,APP002,Batch Control,Permission,Standard,N,Y
+ENT0014,APP002,Access Steward,Application Role,Administrative,Y,Y
+ENT0015,APP003,Read Desk,Application Role,Read,N,Y
+ENT0016,APP003,Work Queue,Security Group,Standard,N,Y
+ENT0017,APP003,Case Review,Permission,Standard,N,Y
+ENT0018,APP003,Report Export,Application Role,Read,N,Y
+ENT0019,APP003,Exception Review,Security Group,Elevated,Y,Y
+ENT0020,APP003,Batch Control,Permission,Standard,N,Y
+ENT0021,APP003,Access Steward,Application Role,Administrative,Y,Y
+ENT0022,APP004,Read Desk,Application Role,Read,N,Y
+ENT0023,APP004,Work Queue,Security Group,Standard,N,N
+ENT0024,APP004,Case Review,Permission,Standard,N,Y
+ENT0025,APP004,Report Export,Application Role,Read,N,Y
+ENT0026,APP004,Exception Review,Security Group,Elevated,Y,Y
+ENT0027,APP004,Batch Control,Permission,Standard,N,Y
+ENT0028,APP004,Access Steward,Application Role,Administrative,Y,Y
+ENT0029,APP005,Read Desk,Application Role,Read,N,Y
+ENT0030,APP005,Work Queue,Security Group,Standard,N,Y
+ENT0031,APP005,Case Review,Permission,Standard,N,Y
+ENT0032,APP005,Report Export,Application Role,Read,N,Y
+ENT0033,APP005,Exception Review,Security Group,Elevated,Y,Y
+ENT0034,APP005,Batch Control,Permission,Standard,N,Y
+ENT0035,APP005,Access Steward,Application Role,Standard,N,Y
+ENT0036,APP006,Read Desk,Application Role,Read,N,Y
+ENT0037,APP006,Work Queue,Security Group,Standard,N,Y
+ENT0038,APP006,Case Review,Permission,Standard,N,Y
+ENT0039,APP006,Report Export,Application Role,Read,N,Y
+ENT0040,APP006,Exception Review,Security Group,Elevated,Y,Y
+ENT0041,APP006,Batch Control,Permission,Standard,N,Y
+ENT0042,APP006,Access Steward,Application Role,Standard,N,Y
+ENT0043,APP007,Read Desk,Application Role,Read,N,Y
+ENT0044,APP007,Work Queue,Security Group,Standard,N,Y
+ENT0045,APP007,Case Review,Permission,Standard,N,Y
+ENT0046,APP007,Report Export,Application Role,Read,N,N
+ENT0047,APP007,Exception Review,Security Group,Elevated,Y,Y
+ENT0048,APP007,Batch Control,Permission,Standard,N,Y
+ENT0049,APP007,Access Steward,Application Role,Standard,N,Y
+ENT0050,APP008,Read Desk,Application Role,Read,N,Y
+ENT0051,APP008,Work Queue,Security Group,Standard,N,Y
+ENT0052,APP008,Case Review,Permission,Standard,N,Y
+ENT0053,APP008,Report Export,Application Role,Read,N,Y
+ENT0054,APP008,Exception Review,Security Group,Elevated,Y,Y
+ENT0055,APP008,Batch Control,Permission,Standard,N,Y
+ENT0056,APP008,Access Steward,Application Role,Standard,N,Y
+ENT0057,APP009,Read Desk,Application Role,Read,N,Y
+ENT0058,APP009,Work Queue,Security Group,Standard,N,Y
+ENT0059,APP009,Case Review,Permission,Standard,N,Y
+ENT0060,APP009,Report Export,Application Role,Read,N,Y
+ENT0061,APP009,Exception Review,Security Group,Elevated,Y,Y
+ENT0062,APP009,Batch Control,Permission,Standard,N,Y
+ENT0063,APP009,Access Steward,Application Role,Standard,N,Y
+ENT0064,APP010,Read Desk,Application Role,Read,N,Y
+ENT0065,APP010,Work Queue,Security Group,Standard,N,Y
+ENT0066,APP010,Case Review,Permission,Standard,N,Y
+ENT0067,APP010,Report Export,Application Role,Read,N,Y
+ENT0068,APP010,Exception Review,Security Group,Elevated,Y,Y
+ENT0069,APP010,Batch Control,Permission,Standard,N,N
+ENT0070,APP010,Access Steward,Application Role,Standard,N,Y
+ENT0071,APP011,Read Desk,Application Role,Read,N,Y
+ENT0072,APP011,Work Queue,Security Group,Standard,N,Y
+ENT0073,APP011,Case Review,Permission,Standard,N,Y
+ENT0074,APP011,Report Export,Application Role,Read,N,Y
+ENT0075,APP011,Exception Review,Security Group,Elevated,Y,Y
+ENT0076,APP011,Batch Control,Permission,Standard,N,Y
+ENT0077,APP012,Read Desk,Application Role,Read,N,Y
+ENT0078,APP012,Work Queue,Security Group,Standard,N,Y
+ENT0079,APP012,Case Review,Permission,Standard,N,Y
+ENT0080,APP012,Report Export,Application Role,Read,N,Y
+ENT0081,APP012,Exception Review,Security Group,Elevated,Y,Y
+ENT0082,APP012,Batch Control,Permission,Standard,N,Y
+ENT0083,APP013,Read Desk,Application Role,Read,N,Y
+ENT0084,APP013,Work Queue,Security Group,Standard,N,Y
+ENT0085,APP013,Case Review,Permission,Standard,N,Y
+ENT0086,APP013,Report Export,Application Role,Read,N,Y
+ENT0087,APP013,Exception Review,Security Group,Elevated,Y,Y
+ENT0088,APP013,Batch Control,Permission,Standard,N,Y
+ENT0089,APP014,Read Desk,Application Role,Read,N,Y
+ENT0090,APP014,Work Queue,Security Group,Standard,N,Y
+ENT0091,APP014,Case Review,Permission,Standard,N,Y
+ENT0092,APP014,Report Export,Application Role,Read,N,N
+ENT0093,APP014,Exception Review,Security Group,Elevated,Y,Y
+ENT0094,APP014,Batch Control,Permission,Standard,N,Y
+ENT0095,APP015,Read Desk,Application Role,Read,N,Y
+ENT0096,APP015,Work Queue,Security Group,Standard,N,Y
+ENT0097,APP015,Case Review,Permission,Standard,N,Y
+ENT0098,APP015,Report Export,Application Role,Read,N,Y
+ENT0099,APP015,Exception Review,Security Group,Elevated,Y,Y
+ENT0100,APP015,Batch Control,Permission,Standard,N,Y
+ENT0101,APP016,Read Desk,Application Role,Read,N,Y
+ENT0102,APP016,Work Queue,Security Group,Standard,N,Y
+ENT0103,APP016,Case Review,Permission,Standard,N,Y
+ENT0104,APP016,Report Export,Application Role,Read,N,Y
+ENT0105,APP016,Exception Review,Security Group,Elevated,Y,Y
+ENT0106,APP016,Batch Control,Permission,Standard,N,Y
+ENT0107,APP017,Read Desk,Application Role,Read,N,Y
+ENT0108,APP017,Work Queue,Security Group,Standard,N,Y
+ENT0109,APP017,Case Review,Permission,Standard,N,Y
+ENT0110,APP017,Report Export,Application Role,Read,N,Y
+ENT0111,APP017,Exception Review,Security Group,Elevated,Y,Y
+ENT0112,APP017,Batch Control,Permission,Standard,N,Y
+ENT0113,APP018,Read Desk,Application Role,Read,N,Y
+ENT0114,APP018,Work Queue,Security Group,Standard,N,Y
+ENT0115,APP018,Case Review,Permission,Standard,N,N
+ENT0116,APP018,Report Export,Application Role,Read,N,Y
+ENT0117,APP018,Exception Review,Security Group,Elevated,Y,Y
+ENT0118,APP018,Batch Control,Permission,Standard,N,Y
+ENT0119,APP019,Read Desk,Application Role,Read,N,Y
+ENT0120,APP019,Work Queue,Security Group,Standard,N,Y
+ENT0121,APP019,Case Review,Permission,Standard,N,Y
+ENT0122,APP019,Report Export,Application Role,Read,N,Y
+ENT0123,APP019,Exception Review,Security Group,Elevated,Y,Y
+ENT0124,APP019,Batch Control,Permission,Standard,N,Y
+ENT0125,APP020,Read Desk,Application Role,Read,N,Y
+ENT0126,APP020,Work Queue,Security Group,Standard,N,Y
+ENT0127,APP020,Case Review,Permission,Standard,N,Y
+ENT0128,APP020,Report Export,Application Role,Read,N,Y
+ENT0129,APP020,Exception Review,Security Group,Elevated,Y,Y
+ENT0130,APP020,Batch Control,Permission,Standard,N,Y
+ENT0131,APP021,Read Desk,Application Role,Read,N,Y
+ENT0132,APP021,Work Queue,Security Group,Standard,N,Y
+ENT0133,APP021,Case Review,Permission,Standard,N,Y
+ENT0134,APP021,Report Export,Application Role,Read,N,Y
+ENT0135,APP021,Exception Review,Security Group,Elevated,Y,Y
+ENT0136,APP021,Batch Control,Permission,Standard,N,Y
+ENT0137,APP022,Read Desk,Application Role,Read,N,Y
+ENT0138,APP022,Work Queue,Security Group,Standard,N,N
+ENT0139,APP022,Case Review,Permission,Standard,N,Y
+ENT0140,APP022,Report Export,Application Role,Read,N,Y
+ENT0141,APP022,Exception Review,Security Group,Elevated,Y,Y
+ENT0142,APP022,Batch Control,Permission,Standard,N,Y
+ENT0143,APP023,Read Desk,Application Role,Read,N,Y
+ENT0144,APP023,Work Queue,Security Group,Standard,N,Y
+ENT0145,APP023,Case Review,Permission,Standard,N,Y
+ENT0146,APP023,Report Export,Application Role,Read,N,Y
+ENT0147,APP023,Exception Review,Security Group,Elevated,Y,Y
+ENT0148,APP023,Batch Control,Permission,Standard,N,Y
+ENT0149,APP024,Read Desk,Application Role,Read,N,Y
+ENT0150,APP024,Work Queue,Security Group,Standard,N,Y
+ENT0151,APP024,Case Review,Permission,Standard,N,Y
+ENT0152,APP024,Report Export,Application Role,Read,N,Y
+ENT0153,APP024,Exception Review,Security Group,Elevated,Y,Y
+ENT0154,APP024,Batch Control,Permission,Standard,N,Y
+ENT0155,APP025,Read Desk,Application Role,Read,N,Y
+ENT0156,APP025,Work Queue,Security Group,Standard,N,Y
+ENT0157,APP025,Case Review,Permission,Standard,N,Y
+ENT0158,APP025,Report Export,Application Role,Read,N,Y
+ENT0159,APP025,Exception Review,Security Group,Elevated,Y,Y
+ENT0160,APP025,Batch Control,Permission,Standard,N,Y
+ENT0161,APP026,Read Desk,Application Role,Read,N,N
+ENT0162,APP026,Work Queue,Security Group,Standard,N,Y
+ENT0163,APP026,Case Review,Permission,Standard,N,Y
+ENT0164,APP026,Report Export,Application Role,Read,N,Y
+ENT0165,APP026,Exception Review,Security Group,Elevated,Y,Y
+ENT0166,APP026,Batch Control,Permission,Standard,N,Y
+ENT0167,APP027,Read Desk,Application Role,Read,N,Y
+ENT0168,APP027,Work Queue,Security Group,Standard,N,Y
+ENT0169,APP027,Case Review,Permission,Standard,N,Y
+ENT0170,APP027,Report Export,Application Role,Read,N,Y
+ENT0171,APP027,Exception Review,Security Group,Elevated,Y,Y
+ENT0172,APP027,Batch Control,Permission,Standard,N,Y
+ENT0173,APP028,Read Desk,Application Role,Read,N,Y
+ENT0174,APP028,Work Queue,Security Group,Standard,N,Y
+ENT0175,APP028,Case Review,Permission,Standard,N,Y
+ENT0176,APP028,Report Export,Application Role,Read,N,Y
+ENT0177,APP028,Exception Review,Security Group,Elevated,Y,Y
+ENT0178,APP028,Batch Control,Permission,Standard,N,Y
+ENT0179,APP029,Read Desk,Application Role,Read,N,Y
+ENT0180,APP029,Work Queue,Security Group,Standard,N,Y
+ENT0181,APP029,Case Review,Permission,Standard,N,Y
+ENT0182,APP029,Report Export,Application Role,Read,N,Y
+ENT0183,APP029,Exception Review,Security Group,Elevated,Y,Y
+ENT0184,APP029,Batch Control,Permission,Standard,N,N
+ENT0185,APP030,Read Desk,Application Role,Read,N,Y
+ENT0186,APP030,Work Queue,Security Group,Standard,N,Y
+ENT0187,APP030,Case Review,Permission,Standard,N,Y
+ENT0188,APP030,Report Export,Application Role,Read,N,Y
+ENT0189,APP030,Exception Review,Security Group,Elevated,Y,Y
+ENT0190,APP030,Batch Control,Permission,Standard,N,Y
+ENT0191,APP031,Read Desk,Application Role,Read,N,Y
+ENT0192,APP031,Work Queue,Security Group,Standard,N,Y
+ENT0193,APP031,Case Review,Permission,Standard,N,Y
+ENT0194,APP031,Report Export,Application Role,Read,N,Y
+ENT0195,APP031,Exception Review,Security Group,Elevated,Y,Y
+ENT0196,APP031,Batch Control,Permission,Standard,N,Y
+ENT0197,APP032,Read Desk,Application Role,Read,N,Y
+ENT0198,APP032,Work Queue,Security Group,Standard,N,Y
+ENT0199,APP032,Case Review,Permission,Standard,N,Y
+ENT0200,APP032,Report Export,Application Role,Read,N,Y
+ENT0201,APP032,Exception Review,Security Group,Elevated,Y,Y
+ENT0202,APP032,Batch Control,Permission,Standard,N,Y
+ENT0203,APP033,Read Desk,Application Role,Read,N,Y
+ENT0204,APP033,Work Queue,Security Group,Standard,N,Y
+ENT0205,APP033,Case Review,Permission,Standard,N,Y
+ENT0206,APP033,Report Export,Application Role,Read,N,Y
+ENT0207,APP033,Exception Review,Security Group,Elevated,Y,N
+ENT0208,APP033,Batch Control,Permission,Standard,N,Y
+ENT0209,APP034,Read Desk,Application Role,Read,N,Y
+ENT0210,APP034,Work Queue,Security Group,Standard,N,Y
+ENT0211,APP034,Case Review,Permission,Standard,N,Y
+ENT0212,APP034,Report Export,Application Role,Read,N,Y
+ENT0213,APP034,Exception Review,Security Group,Elevated,Y,Y
+ENT0214,APP034,Batch Control,Permission,Standard,N,Y
+ENT0215,APP035,Read Desk,Application Role,Read,N,Y
+ENT0216,APP035,Work Queue,Security Group,Standard,N,Y
+ENT0217,APP035,Case Review,Permission,Standard,N,Y
+ENT0218,APP035,Report Export,Application Role,Read,N,Y
+ENT0219,APP035,Exception Review,Security Group,Elevated,Y,Y
+ENT0220,APP035,Batch Control,Permission,Standard,N,Y
+ENT0221,APP036,Read Desk,Application Role,Read,N,Y
+ENT0222,APP036,Work Queue,Security Group,Standard,N,Y
+ENT0223,APP036,Case Review,Permission,Standard,N,Y
+ENT0224,APP036,Report Export,Application Role,Read,N,Y
+ENT0225,APP036,Exception Review,Security Group,Elevated,Y,Y
+ENT0226,APP036,Batch Control,Permission,Standard,N,Y
+ENT0227,APP037,Read Desk,Application Role,Read,N,N
+ENT0228,APP037,Work Queue,Security Group,Standard,N,N
+ENT0229,APP037,Case Review,Permission,Standard,N,N
+ENT0230,APP037,Report Export,Application Role,Read,N,N
+ENT0231,APP037,Exception Review,Security Group,Elevated,Y,N
+ENT0232,APP037,Batch Control,Permission,Standard,N,N
+ENT0233,APP038,Read Desk,Application Role,Read,N,N
+ENT0234,APP038,Work Queue,Security Group,Standard,N,N
+ENT0235,APP038,Case Review,Permission,Standard,N,N
+ENT0236,APP038,Report Export,Application Role,Read,N,N
+ENT0237,APP038,Exception Review,Security Group,Elevated,Y,N
+ENT0238,APP038,Batch Control,Permission,Standard,N,N
+ENT0239,APP039,Read Desk,Application Role,Read,N,N
+ENT0240,APP039,Work Queue,Security Group,Standard,N,N
+ENT0241,APP039,Case Review,Permission,Standard,N,N
+ENT0242,APP039,Report Export,Application Role,Read,N,N
+ENT0243,APP039,Exception Review,Security Group,Elevated,Y,N
+ENT0244,APP039,Batch Control,Permission,Standard,N,N
+ENT0245,APP040,Read Desk,Application Role,Read,N,N
+ENT0246,APP040,Work Queue,Security Group,Standard,N,N
+ENT0247,APP040,Case Review,Permission,Standard,N,N
+ENT0248,APP040,Report Export,Application Role,Read,N,N
+ENT0249,APP040,Exception Review,Security Group,Elevated,Y,N
+ENT0250,APP040,Batch Control,Permission,Standard,N,N

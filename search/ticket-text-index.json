@@ -1,0 +1,25 @@
+{
+  "name": "ticket-text",
+  "fields": [
+    { "name": "ticketId", "type": "Edm.String", "key": true, "searchable": false, "filterable": true, "sortable": true, "retrievable": true },
+    { "name": "ticketText", "type": "Edm.String", "searchable": true, "filterable": false, "sortable": false, "retrievable": true, "analyzer": "en.microsoft" },
+    { "name": "ticketType", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": false, "retrievable": true },
+    { "name": "contextCode", "type": "Edm.String", "searchable": false, "filterable": true, "facetable": true, "sortable": false, "retrievable": true }
+  ],
+  "corsOptions": {
+    "allowedOrigins": ["*"],
+    "maxAgeInSeconds": 300
+  },
+  "semantic": {
+    "configurations": [
+      {
+        "name": "ticket-semantic",
+        "prioritizedFields": {
+          "titleField": null,
+          "prioritizedContentFields": [ { "fieldName": "ticketText" } ],
+          "prioritizedKeywordsFields": [ { "fieldName": "ticketType" }, { "fieldName": "contextCode" } ]
+        }
+      }
+    ]
+  }
+}

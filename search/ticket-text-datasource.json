@@ -1,0 +1,8 @@
+{
+  "name": "rolepatrol-ticket-source",
+  "type": "azuresql",
+  "credentials": {
+    "connectionString": "ResourceId=/subscriptions/__SUBSCRIPTION_ID__/resourceGroups/__RESOURCE_GROUP__/providers/Microsoft.Sql/servers/__SQL_SERVER__;Database=__DATABASE__;"
+  },
+  "container": { "name": "search.vTicketDocument" }
+}

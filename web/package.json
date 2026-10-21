@@ -1,0 +1,16 @@
+{
+  "name": "role-patrol-browser",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:app": "esbuild app.js --bundle --minify --format=iife --outfile=dist/app.js",
+    "build:bridge": "esbuild bridge.js --bundle --minify --format=iife --outfile=dist/bridge.js"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "5.25.0"
+  },
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "2.0.10",
+    "esbuild": "0.28.2"
+  }
+}

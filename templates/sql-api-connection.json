@@ -1,0 +1,13 @@
+{
+    "properties": {
+        "parameterValueSet": {
+            "name": "oauthMI",
+            "values": {}
+        },
+        "api": {
+            "id": "/subscriptions/__SUBSCRIPTION_ID__/providers/Microsoft.Web/locations/__LOCATION__/managedApis/sql"
+        },
+        "displayName": "__CONNECTION_NAME__"
+    },
+    "location": "__LOCATION__"
+}

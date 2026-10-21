@@ -1,0 +1,10 @@
+{
+  "type": "AzureSqlDatabase",
+  "typeProperties": {
+    "server": "team20-sql-204508.database.windows.net",
+    "database": "team20_rolepatrol",
+    "encrypt": true,
+    "trustServerCertificate": false,
+    "authenticationType": "SystemAssignedManagedIdentity"
+  }
+}
